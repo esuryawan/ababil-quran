@@ -1,0 +1,20 @@
+{
+	"private": false,
+	"name": "ababil-quran",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "build/index.js",
+	"description": "Ababil Al Quran",
+	"scripts": {
+		"build": "rimraf build && tsc"
+	},
+	"keywords": [],
+	"author": "Erick Suryawan <erick.suryawan@gmail.com>",
+	"license": "Ababil",
+	"dependencies": {
+		"ababil-auth": "^1.0.0"
+	},
+	"devDependencies": {
+		"typescript": "^4.9.5"
+	}
+}
