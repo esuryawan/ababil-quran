@@ -14,8 +14,16 @@ export interface LafazArti extends Lafaz {
 	grammarId: number;
 	imageIndex: number;
 	grammar: string;
-	artis: any[];
+	translate: any[];
 	corpus: any;
+}
+
+export interface LafazExtend extends Lafaz {
+	v1_code: string;
+    v1_page: string;
+    v2_code: string;
+    v2_page: string;
+	arti: string;
 }
 
 // Lafaz for editor
@@ -33,7 +41,7 @@ export interface LafazItem {
 }
 
 export interface PageResult {
-	lines: Lafaz[][];
+	lafazs: Lafaz[]; 
 	translate: any[];
 	footnotes: any[];
 }
