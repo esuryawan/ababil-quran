@@ -16,6 +16,8 @@ export interface LafazArti extends Lafaz {
 	grammar: string;
 	translate: any[];
 	corpus: any;
+	prevId: number;
+	nextId: number;
 }
 
 export interface LafazExtend extends Lafaz {
