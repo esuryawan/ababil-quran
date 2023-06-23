@@ -1,7 +1,7 @@
 {
 	"private": false,
 	"name": "ababil-quran",
-	"version": "1.1.1",
+	"version": "1.1.20230624",
 	"type": "module",
 	"main": "build/index.js",
 	"description": "Ababil Al Quran",
@@ -12,9 +12,9 @@
 	"author": "Erick Suryawan <erick.suryawan@gmail.com>",
 	"license": "Ababil",
 	"dependencies": {
-		"ababil-auth": "^1.1.0"
+		"ababil-auth": "^1.1.20230624"
 	},
 	"devDependencies": {
-		"typescript": "^5.0.3"
+		"typescript": "^5.1.3"
 	}
 }
